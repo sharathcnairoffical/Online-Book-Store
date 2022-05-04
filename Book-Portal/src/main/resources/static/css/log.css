@@ -1,0 +1,144 @@
+a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+body {
+ 	 /* background: url('images/bookstore.jpg') no-repeat center; */
+  background-size: cover;
+  font-family: sans-serif;
+ opacity:2;
+ background-color: hsl(0, 20%, 0%);
+				}
+
+
+/* -----------------------------Nav bar------------------------------------------ */
+			.hero {
+					position: absolute;
+					width: 100%;
+					height: 100vh;
+					opacity: 90%;
+					top: 0;
+					left: 0;
+					z-index: -100;
+				}
+
+				.hero-wrap {
+					height: 80vh;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.hero-text {
+					font-size: 4rem;
+					font-weight: 900;
+					color: white;
+					text-transform: capitalize;
+					text-align: center;
+					font-family: 'Josefin Sans', sans-serif;
+				}
+
+				.overlay {
+					opacity: 65%;
+					background-color: black;
+				}
+
+				
+				.nav-wrap {
+					height: 10vh;
+					background-color: black;
+					position: sticky;
+					top: 0;
+					left: 0;
+					z-index: 100;
+				}
+
+				nav {
+					height: 100%;
+					/* background-color: blue; */
+
+				}
+
+				.nav {
+					display: flex;
+					align-items: center;
+
+					justify-content: space-between;
+				}
+
+				.navlinks {
+					display: flex;
+					align-items: center;
+					padding: 0 1rem 0 0.7rem;
+				}
+
+
+
+				.login:hover {
+					color: black;
+				}
+
+				.nav-right {
+					display: flex;
+				}
+
+
+				/* .btn {
+					all: unset;
+					background-color: turquoise;
+					color: black;
+					padding: 0.23rem 1rem;
+					border-radius: 4px;
+					box-sizing: border-box;
+				} */
+
+				.search-box {
+					padding: 0.2rem 0.7rem;
+					border-radius: 4px;
+					border: none;
+					outline: none;
+					box-sizing: border-box;
+				}
+
+				.price {
+					display: flex;
+					align-items: center;
+					font-weight: bold;
+					font-size: 1.1rem;
+					align-items: flex-end;
+				}
+
+				.book {
+					color: black;
+				}
+
+				.footer-text {
+					color: white;
+					text-align: center;
+				}
+
+				.card {
+					position: relative;
+					height: 75vh;
+					transition: 500ms;
+					margin-bottom: 2rem;
+				}
+
+				.card-img-top {
+					height: 70%;
+					width: 100%;
+					object-fit: cover;
+				}
+
+				.card:hover {
+					transform: scale(1.02);
+				}
+
+				a:hover {
+					color: tomato;
+				}
+/* ----------------------------------------------------------------------- */
+
+
+
